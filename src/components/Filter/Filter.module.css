@@ -1,0 +1,30 @@
+.filter {
+  border: 1px solid rgba(217, 217, 217, 1);
+  padding: 8px 12px;
+  font-size: 20px;
+  /* background: #fff; */
+  background: linear-gradient(
+    270.16deg,
+    #cc00ff -2.84%,
+    #5756ff 33.42%,
+    #07fdfd 99.91%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 700;
+  font-family: Arial;
+  cursor: pointer;
+  width: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter.active {
+  background: #cc00ff;
+  color: #fff !important;
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: #fff;
+}

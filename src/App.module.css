@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.container {
+  width: 680px;
+  /* background: #ffecef; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  background: linear-gradient(
+    270.16deg,
+    #cc00ff -2.84%,
+    #5756ff 33.42%,
+    #07fdfd 99.91%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 70px;
+  /* line-height: 51px; */
+}
